@@ -1,147 +1,45 @@
-*{
+body{
+    font-size: medium;
+}
+
+ul{
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    overflow: hidden;
+    background-color: aqua;
 }
 
 
-.main hover{
-    background-color: #ffffff;
-    color: #000000;   
-
+li{
+    display: inline;
+    float: right;
+    
 }
-
-h3{
+li a{
+    display: block;
     color: white;
-}
-
-.navid{
-    background-color: #000000;
-}
-
-.header{
-    background-color: #000;
-}
-
-
-
-.title h1{
-    font-size: 60px;
-    color: #000;
-    font-family: 'Lato';
-}
-
-.button{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.button1:hover{
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.btn{
-    border: 1px solid #ffffff;
-    padding: 10px 30px;
-    color: #ffffff;
-    text-decoration: none;
-    transition: 0.6s ease;
-    border-radius: 90px;
-    width: 180px;
-    margin: 20px;
-    border: 2px solid #eee;
-    border-radius: 50px;
-    font-size: 18px;
-    outline: none;
-    letter-spacing: 1px;
-    cursor: pointer;
-    animation-name: animateBtn;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: backwards;
-}
-
-.btn:hover{
-    background-color: #ffffff;
-    color: #000000;
-}
-
-
-
-
-
-.xbox{
-    width:  100%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
-    float: left;
-    padding-top: 250px;
-    padding-right: 850px;
-}
-
-.xbox h1{
-    font-size: 80px;
-    color: aqua;
-    font-weight: 300;
-    margin-bottom: 30px;
-    animation-name: moveToLeft;
-    animation-duration: 2s;
-}
-
-.xbox span{
-    text-transform: uppercase;
-    font-weight: 700;
-    color: white;
-
-}
-
-.xbox p{
-    font-size: 50px;
-    font-weight: 300;
-    color: white;
-    margin-bottom: 20px;
-    animation: moveToRight;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
-@keyframes moveToLeft {
-    0% {
-        transform: translateX(120px);
-        opacity: 0;
-    }
-
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
+.flex-container{
+    display:flex;
+    background-color:blue;
+    justify-content: center;
+    flex-direction: row;
 }
 
-@keyframes animateBtn {
-    0% {
-        opacity: 0;
-    }
+.flex-container > div{
+    background-color:gray;
+    color:white;
+    width: 500px;
+    height: 200px;
+    margin:20px;
+    
+    text-align: center;
+    font-size: 30px;
 
-    100%{
-      
-        opacity: 1;
-    }
-}
-
-@keyframes moveToRight{
-    0% {
-        transform: translateX(-120px);
-        opacity: 0;
-    }
-
-    100%{
-        transform: translateX(0);
-        opacity: 1;
-    }
 }
