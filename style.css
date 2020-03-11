@@ -1,0 +1,45 @@
+body{
+    font-size: medium;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+
+li{
+    display: inline;
+    float: right;
+    
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.flex-container{
+    display:flex;
+    background-color:blue;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex-container > div{
+    background-color:gray;
+    color:white;
+    width: 500px;
+    height: 200px;
+    margin:20px;
+    
+    text-align: center;
+    font-size: 30px;
+
+}
