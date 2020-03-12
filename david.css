@@ -1,0 +1,619 @@
+body{
+    font-size: medium;
+}
+
+
+
+header{
+    background-image: url(../edu-prep4-week1-brocode-master/network.jpg);
+    background-size: cover;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+    background-color: white;
+  }
+  
+  /* Header/logo Title */
+  .nav {
+    padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    animation-name: moveUpwards;
+    animation-duration: 1s;
+    background-size: cover;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    animation-name: move;
+    animation-duration: 1s;
+   background-color: black;
+    background-size: cover;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  
+  
+  /* Footer */
+  .footer {
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+    height: 60px;
+    animation-name: footer;
+    animation-duration: 1s;
+  }
+  
+  
+
+ 
+
+  @keyframes moveUpwards {
+    0% {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    }
+
+    @keyframes move{
+        0% {
+            transform: translateY(30px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+        .namex{
+            animation-name: namex;
+            animation-duration: 1s;
+            font-weight: 600;
+            font-size: 40px;
+    }
+
+    @keyframes namex {
+        0% {
+            transform: translateX(-80px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes movecard{
+        0% {
+            transform: translateY(30px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes move{
+        0% {
+            transform: translateY(80px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes footer{
+        0% {
+            transform: translateY(80px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes cardx{
+        0% {
+            transform: translateY(550px);
+            opacity: 0;
+        }
+        100%{
+            transform: translateY(0);
+            opacity: 2;
+        }
+    }
+
+    @keyframes done{
+      0% {
+          transform: translateX(-50px);
+          opacity: 0;
+      }
+      100%{
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+
+  @keyframes footer{
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+    .container1{
+      padding-left: 140px;
+      padding-top: 120px;
+      animation-name: namex;
+      animation-duration: 2s;
+      float: left;
+    }
+
+    .container2{
+      padding-left: 240px;
+      padding-top: 120px;
+      width: 500px;
+      height: 400px;
+      animation-name: cardx;
+      animation-duration: 4s;
+      margin-right: 69px;
+      margin-top: 30px;
+      float: right;
+      background-color: black;
+      border-radius: 15px;
+    }
+
+
+
+    .btn1{
+      border: 2px solid black;
+      padding: 10px 30px;
+      color: white;
+      text-decoration: none;
+      transition: 0.6s ease;
+      border-radius: 9px;
+      margin-right: 25px;
+      cursor: pointer;
+      background-color: black;
+      font-family: 'Lato', sans-serif;
+  }
+
+    .btn2{
+      border: 2px solid black;
+      padding: 10px 30px;
+      color: black;
+      text-decoration: none;
+      transition: 0.6s ease;
+      border-radius: 9px;
+      margin-right: 25px;
+      cursor: pointer;
+      background-color: transparent;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .btn2:hover{
+      background-color: black;
+      color: white;
+      border-color: white;
+  }
+  
+  .btn1:hover{
+      background-color: white;
+      color: black;
+      border-color: #000000;
+  }
+
+  
+.card {
+  /* Add shadows to create the "card" effect */
+box-shadow: 10 14px 18px 0 black;
+transition: 0.3s;
+border-radius: 10px;
+width: 1100px;
+height: 400px;
+animation-name: move;
+animation-duration: 2s;
+margin-top: 410px;
+margin-left: 80px;
+background-color: black;
+font-family: 'Lato', sans-serif;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+box-shadow: 10 14px 18px 0 black;
+}
+
+/* Add some padding inside the card container */
+.containerc{
+padding-top: 10px;
+background-color: black;
+width: 1200px;
+color: white;
+height: 400px;
+border-radius: 10px;
+animation-name: move;
+animation-duration: 2s;
+font-family: 'Lato', sans-serif;
+}
+
+.containerd{
+  float: left;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  padding-left: 55px;
+  margin-left: 26px;
+  margin-top: 9px;
+  background-color: white;
+  animation-name: done;
+  animation-duration: 2s;
+  font-family: 'Lato', sans-serif;
+}
+
+.containere{
+  float: right;
+  width: 830px;
+  height: 300px;
+  border-radius: 15px;
+  padding-left: 5px;
+  margin-right: 36px;
+  background-color:transparent;
+  font-family: 'Lato', sans-serif;
+}
+
+.containers{
+  background-color: black;
+  height: 200px;
+  width: 1200px;
+  margin-left: 80px;
+  border-radius: 15px;
+  font-family: 'Lato', sans-serif;
+}
+.services{
+  color: white;
+  padding-left: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.required{
+  color: white;
+  padding-left: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.buttons{
+  padding-top: 60px;
+  padding-left: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+.btns1{
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  transition: 0.6s ease;
+  border-radius: 9px;
+  margin-right: 25px;
+  cursor: pointer;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.btns2{
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  transition: 0.6s ease;
+  border-radius: 9px;
+  margin-right: 25px;
+  cursor: pointer;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn3{
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  transition: 0.6s ease;
+  border-radius: 9px;
+  margin-right: 25px;
+  
+  cursor: pointer;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn3:hover{
+  background-color: black;
+  color: white;
+}
+
+.btns1:hover{
+  background-color: black;
+  color: white;
+}
+
+.btns2:hover{
+  background-color: black;
+  color: white;
+}
+
+.about{
+  margin-left: 380px;
+  margin-top: 10px;
+}
+
+.write{
+  color: white;
+  padding-left: 5px;
+  width: 1200px;
+  height: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+.card7{
+box-shadow: 10 14px 18px 0 black;
+transition: 0.3s;
+border-radius: 10px;
+width: 1200px;
+height: 400px;
+margin-bottom: 50px;
+animation-name: move;
+animation-duration: 2s;
+margin-top: 10px;
+margin-left: 75px;
+background-color: white;
+font-family: 'Lato', sans-serif;
+}
+
+.container8{
+  float: left;
+  width: 550px;
+  height: 350px;
+  border-radius: 15px;
+  padding-left: 85px;
+  margin-top: 9px;
+  background-color:white;
+  background-size: contain;
+  animation-name: done;
+  animation-duration: 2s;
+  font-family: 'Lato', sans-serif;
+  border: 2px solid black;
+}
+
+.container9{
+  float: right;
+  width: 550px;
+  height: 350px;
+  border-radius: 15px;
+  padding-left: 55px;
+  margin-left: 56px;
+  margin-top: 9px;
+  background-color: white;
+  background-size: contain;
+  animation-name: done;
+  animation-duration: 2s;
+  font-family: 'Lato', sans-serif;
+  border: 2px solid black;
+}
+
+
+
+.data{
+  font-family: 'Lato', sans-serif;
+}
+
+.namex{
+  font-family: 'Lato', sans-serif;
+}
+
+.profile{
+  font-family: 'Lato', sans-serif;
+}
+
+.me{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+.About{
+  font-family: 'Lato', sans-serif;
+}
+
+.servex{
+  padding-left: 50px;
+  width: 1200px;
+  height: 100px;
+}
+
+.projects{
+  margin-left: 80px;
+  color: black;
+}
+
+.img8{
+  width: 100px;
+  height: 100px;
+  margin-left: 145px;
+  margin-top: 10px;
+}
+
+.img9{
+  width: 100px;
+  height: 100px;
+  margin-left: 165px;
+  margin-top: 10px;
+}
+
+.buttons11{
+  padding-top: 80px;
+  padding-left: 110px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.buttons12{
+  padding-top: 55px;
+  padding-left: 130px;
+  font-family: 'Lato', sans-serif;
+}
+
+.imgy{
+  width: 100px;
+  height: 100px;
+  margin-left: 1px;
+  margin-top: 1px;
+ margin-right: 50px;
+}
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  animation-name: footer;
+  animation-duration: 1.5s;
+  }
+  
+  
+  .containerp{
+  padding:0 50px;
+  margin-bottom: 10px;
+  }
+  
+  
+  
+  .imgx{
+      width: 50px;
+      height: 50px;
+      margin-top: 280px;
+      margin-left: 200px;
+  }
+  
+  .copyright{
+      color: black;
+      text-align: center;
+      padding-bottom: 5px;
+      font-weight: 500;
+  }
+
+  .footer-links{
+    float: left;
+}
+
+.github{
+    width: 100px;
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+
+.slack{
+  width: 100px;
+  float: left;
+  margin-left: 0px;
+}
+
+.pivotal{
+  width: 100px;
+  float: left;
+  margin-left: 0px;
+}
+
+.containerp {
+  padding:0 50px;
+  }
+  
+  .footer1 {
+  display:table;
+  table-layout:fixed;
+  width:100%;
+  margin:0 auto;
+  }
+  .footer-links {
+  display:table-cell;
+  vertical-align:middle;
+  }
+
+  .a1{
+    text-align:left;
+}
+
+.a2{
+    text-align:center;
+}
+
+.a3{
+    text-align:right;
+}
+
+.footer-links ul {
+padding: 0;
+}
+.footer-links ul li {
+display: inline-block;
+padding-right: 10px;
+font-size:.75em;
+}
+.footer-links ul li {
+color: #fff;
+margin: 0;
+}
+  
+
+
+
