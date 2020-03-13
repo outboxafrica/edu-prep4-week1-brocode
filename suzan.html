@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzan Profile</title>
+<!-- <link rel="stylesheet" href="suzan.css"> -->
+<style>
+body{
+    background-color: white;
+
+}
+
+.navbar{
+    display: flex;
+    /* background-image: url(/images/Mbabazi.jpg); */
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0%;
+    margin-bottom: 40px;;
+    background-color: black;
+    display: flex;
+        
+}
+    .navbar a{    
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: right;
+    
+    
+
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    float: left;
+}
+.profile{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-evenly;
+}
+.imgphoto{
+    width: 400px;
+    height: 300px;
+    border-radius: 200px 200px;
+    filter: grayscale(100%);
+    
+}
+.aboutme {
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+
+}
+@media only screen and (max-width: 600px) {
+ body{
+    background-color: grey;
+    flex-direction: column;
+  }
+}
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="">HOME</a>
+            <a href="#">ABOUT</a>
+        </div>
+    </div>
+    
+    <div class="profile">
+        <div class="photo">
+            <img src="/images/Suepic.jpg" alt="Sue's photo" class="imgphoto">
+        </div>
+        <div class="aboutme">
+            <h2>About me!</h2>
+            <p>Hey there,</p>
+            <p>I am Mbabazi Suzan a Computer Engineer and Junior developer.</p>
+            <p>I am enthusiastic about technology and menstrual health hygiene.</p>
+            <p>My tech journey began when I joined university in 2015 and from then I <br>learnt how much I could do with technology.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>Web design; HTMl,CSS,JavaScript</li>
+                <li>Problem solving</li>
+                <li>Leadership skills</li>
+            </ul>
+            <h2>Interests</h2>
+            <ul>
+                <li>Travelling</li>
+                <li>Watching sunsets</li>
+                <li>Doing community work</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="footer">
+    <footer>
+        <a href="https://github.com/mbabazisuzanne">Github</a>
+        <a href="www.linkedin.com/in/suzan-mbabazi-687294149">LinkedIn</a>
+        <a href="https://app.slack.com/client/TUCMNMYKD/CUV589V7X">Slack</a>
+    </footer>
+    </div>
+</body>
+</html> 
+
