@@ -1,0 +1,123 @@
+body {
+    color:midnightblue;
+    font-family: Arial, Helvetica, sans-serif
+    background-color:powderblue;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.socials {
+    display: flex;
+    width: 215px;
+    height: 180px;
+ 
+    max-width:100%;
+    align-self: center;
+    padding-right: em;
+    margin-right: em;
+    margin-bottom: 1em;
+    float: left;
+}
+
+
+#profileimg {
+    display:flex;
+   
+    justify-content: flex-start;
+    background-color: transparent;
+    border-radius: 15px;
+    
+    
+}
+
+hr.dashed {
+    border: 8px dashed powderblue;
+}
+
+a:hover {
+    color: chartreuse;
+    text-decoration: underline;
+    background-color: midnightblue;
+    
+}
+
+.footer {
+    display: flex;
+    position:sticky;
+    margin-bottom: 0em;
+    align-items: flex-end;
+    
+}
+
+#h1welcome {
+    background-color:powderblue;
+    height: 180px;
+    
+    border: 5px dashed orangered;
+    margin-bottom: 0;
+    max-width: 100%;
+    border-radius: 15px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    background-color: orangered;
+    padding: 40px 80px;
+    border:5px dashed powderblue;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    max-width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    color: powderblue;
+}
+
+
+#icons {
+    display: flex;
+    justify-content: center;
+    border: 5px dashed powderblue;
+    background-color: orangered;
+}
+
+#video {
+    display:flex;
+    justify-content: center;
+    
+    border: 5px dashed orangered;
+    background-color: powderblue;
+}
+
+#footer {
+    display: flex;
+    justify-content: end;
+    
+}
+
+#navbar {
+    display: flex;
+    align-items: flex-start;
+    margin-top:2px;
+    background-color:orangered;
+
+}
+
+#navbarbottom {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0em;
+}
+
+@media (max-width:100px) {/*CSS rules*/}  
+    
+@media (max-height:800px) 
+
+
+
+    
+    
+
+
