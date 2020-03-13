@@ -1,0 +1,86 @@
+
+
+#h1{
+   text-align: center;
+   background-color: magenta;
+   color: rgba(47, 0, 255, 0.808)
+   
+}
+
+#outsidework{
+   text-align: center;
+   background-color: rgba(76, 0, 130, 0.24);
+}
+
+#imageb
+{
+   align-items: center;
+}
+
+#imagebio 
+{
+   border: 5px solid lightseagreen;
+}
+
+#imagebike 
+{
+border: 0px solid lightskyblue;  
+}
+
+#image
+{
+   float: right;
+}
+
+.navbar
+{
+float: right;
+}
+
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+ul {
+   display: block;
+   color: black;
+   text-align: left;
+   padding: 14px 16px;
+   text-decoration: none;
+} */
+
+.biodata
+{
+   float: right;
+}
+/* marquee*/
+#marquee1 {
+	overflow-x: marquee-line;
+	marquee-style: slide;}
+
+
+/* grid layout styles */
+.grid1-biopic{
+   align-content: centre;
+   }
+
+.grid2-biodata{
+   background-color: whitesmoke;
+   text-align: left;
+      }
+
+.grid3-work{
+   margin: 2px:
+   background-color:rgba(rgba(32, 178, 171, 0.356));
+   text-align: block;
+         }
+
+/*medium querry*/
+@media ()
