@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.navid{
+    padding-right: 15px;
+    animation-name: nav;
+    animation-duration: 2s;
+}
+
+body{
+    background-image: url(network.jpg);
+
+}
+
+ul{
+    padding-top: 25px;
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.active{
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 90px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: white;
+     }
+
+     .active:hover{
+        background-color: transparent;
+        color: #ffffff;
+     }
+
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid skyblue;
+    transition: 0.6s ease;
+    border-radius: 100px;
+    padding-right: 20px;
+    font-family: 'Lato';       
+}
+
+ul li :hover{
+    background-color: white;
+    color: black;   
+}
+
+.title{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h2{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Lato';
+    padding-top: 5px;
+    overflow: hidden;
+    position: relative;
+    animation-name: moveUpwards;
+    animation-duration: 2s;
+    margin-left: 700px;
+}
+
+h2{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Lato';
+    padding-left: 65px;
+}
+
+
+
+p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Lato';
+    padding-left: 40px;
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.button{
+    padding-top: 80px;
+    padding-left: 90px;
+    
+}
+
+.btn1{
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 90px;
+    margin-right: 25px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn2{
+    border: 2px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 90px;
+    margin-right: 25px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn2:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 white;
+transition: 0.3s;
+border-radius: 10px;
+float: left;
+width: 400px;
+height: 400px;
+margin-top: 100px;
+margin-left: 20px;
+background-color: transparent;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+box-shadow: 0 8px 16px 0 white;
+}
+
+/* Add some padding inside the card container */
+.container {
+padding-top: 10px;
+}
+
+
+@keyframes moveUpwards {
+0% {
+    transform: translateX(120px);
+    opacity: 0;
+}
+100%{
+    transform: translateY(0);
+    opacity: 1;
+}
+}
+
+
+@keyframes nav {
+    0% {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    }
+    
+
+
+@keyframes footer {
+    0% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    }
+
+.footer{
+position: fixed;
+left: 0;
+bottom: 0;
+height: 50px;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+animation-name: footer;
+animation-duration: 1.5s;
+}
+
+
+.container {
+padding:0 50px;
+}
+
+.footer1 {
+display:table;
+table-layout:fixed;
+width:100%;
+margin:0 auto;
+}
+.footer-links {
+display:table-cell;
+vertical-align:middle;
+}
+
+.a1{
+    text-align:left;
+}
+
+.a2{
+    text-align:center;
+}
+
+.a3{
+    text-align:right;
+}
+
+.footer-links ul {
+padding: 0;
+}
+.footer-links ul li {
+display: inline-block;
+padding-right: 10px;
+font-size:.75em;
+}
+.footer-links ul li {
+color: #fff;
+margin: 0;
+}
+
+.imgx{
+    width: 50px;
+    height: 50px;
+    margin-top: 280px;
+    margin-left: 200px;
+}
+
+.copyright{
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.container2{
+    float: right;
+    padding: 100px;
+    background-color: transparent;
+    margin-top: 110px;
+    margin-right: 100px;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    
+}
+
+#imagex{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.footer-links{
+    float: left;
+}
+
+.github{
+    width: 100px;
+    float: left;
+    margin-left: 0px;
+}
+
+.slack{
+    width: 100px;
+    float: left;
+    margin-left: 0px;
+}
+
+.pivotal{
+    width: 100px;
+    float: left;
+    margin-left: 0px;
+}
+
+.controlx{
+    float: right;
+    margin-top: 450px;
+    width: 0%;
+    
+}
+
