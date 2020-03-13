@@ -6,11 +6,13 @@
 
 .navid{
     padding-right: 15px;
+    animation-name: nav;
+    animation-duration: 2s;
 }
 
 body{
-  background-image: url(../edu-prep4-week1-brocode-master/network.jpg);
-  background-size: contain;
+    background-image: url(network.jpg);
+
 }
 
 ul{
@@ -40,9 +42,7 @@ ul li{
      .active:hover{
         background-color: transparent;
         color: #ffffff;
-
      }
-
 
 
 ul li a{
@@ -175,6 +175,19 @@ padding-top: 10px;
 }
 
 
+@keyframes nav {
+    0% {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    }
+    
+
+
 @keyframes footer {
     0% {
         transform: translateY(40px);
@@ -298,7 +311,7 @@ margin: 0;
 
 .controlx{
     float: right;
-    margin-top: 200px;
+    margin-top: 450px;
     width: 0%;
     
 }
