@@ -60,22 +60,26 @@ body {
 /* Main column */
 .main {
   flex: 70%;
-  background-color: white;
+  background-color:white;
   padding: 20px;
 }
 
 /* Fake image, just for this example */
-.fakeimg {
+.img {
   background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+  width: 300px;
+  height: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: url('../pp.jpg');
 }
 
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: black;
+  color: white;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -108,30 +112,49 @@ body {
 <!-- The flexible grid (content) -->
 <div class="row">
   <div class="side">
-    <h2>I'm Crispus.</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h2>I'm Crispus Makwasi.</h2>
+    
+    <div class="img" style="height:400px;">
+    
+    </div>
+    <p>Software Engineer,Java script.</p>
    
   </div> 
   <div class="main">
     <h2>ABOUT ME</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    
+    <h2><p>Profile</p></h2>
+    <p>Student at Makerere University currently pursuing a Bachelors degree in Software Engineering.
+      Am a student at OutBox uganda doing Web development and Web design.
+      Am passionate about using technology to solve problems in society such as education and many others.
+    </p>
     <br>
     <h2>Skills</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Team player</li>
+    </ul>
+    <h2>Intrests</h2>
+    <ul>
+      <li>Sports</li>
+      <li>Music</li>
+      <li>Reading</li>
+      
+    </ul>
+    
+    <div class="" style="height:0px;"></div>
+    
   </div>
 </div>
 
 <!-- Footer -->
 <div class="footer">
-  <h2>Footer</h2>
+  <a href="https://github.com/makwasi1">Github</a>
+  <a href="">LinkedIn</a>
+  <a href="">Slack</a>
 </div>
 
 </body>
